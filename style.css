@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --bg-color: #1e1e1e;
+    --bg-text: white;
+}
+
+body{
+    background-color: var(--bg-color);
+    background-image: url("./img/bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:20% 30%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 80px;
+
+    & nav{
+        display: flex;
+        gap:30px;
+
+        & a{
+            color: var(--bg-text);
+        }
+    }
+
+
+
+
+    & .icons{
+        color: white;
+        
+    }
+}
